@@ -1,0 +1,13 @@
+.tipList {
+    flex-basis: 20%;
+    padding-left: 4em;
+}
+
+.tipList__header {
+    margin-bottom: 2em;
+}
+
+.tip {
+    flex-basis: 25%;
+    margin: 1em 0;
+}

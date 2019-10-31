@@ -1,11 +1,13 @@
 @import 'dialog.css';
 @import 'nav.css';
 @import 'fish.css';
+@import 'tips.css';
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .content {
-    padding: 5em;
+    padding: 3em;
+    display: flex;
 }

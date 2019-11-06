@@ -1,0 +1,39 @@
+@import '../nav.css';
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content {
+    padding: 3em;
+    display: flex;
+}
+
+.locations {
+    flex-basis: 100%;
+}
+
+.locations__header {
+    font-size: 3em;
+}
+
+.locations__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.location {
+    flex-basis: 30%;
+    margin-bottom: 4em;
+}
+
+.location__image {
+    width: 10em;
+    height: 10em;
+}
+
+.location__tip {
+    padding: 1em 0 1em 0;
+    height: 4em;
+}

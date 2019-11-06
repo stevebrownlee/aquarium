@@ -1,5 +1,5 @@
 @import 'dialog.css';
-@import 'nav.css';
+@import '../nav.css';
 @import 'fish.css';
 @import 'tips.css';
 

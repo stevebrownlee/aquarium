@@ -18,7 +18,7 @@ const TipListComponent = () => {
         <aside class="tipList">
             <h2 class="tipList__header">Martin's Tips</h2>
             ${tipHTMLRepresentations}
-        </section>
+        </aside>
     `
 }
 

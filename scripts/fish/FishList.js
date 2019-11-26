@@ -4,19 +4,16 @@
 import { useFish } from "./FishDataProvider.js"
 import FishComponent from "./Fish.js"
 
+const contentElement = document.querySelector(".content")
+
 const FishListComponent = () => {
-
-    const contentElement = document.querySelector(".content")
     const fishes = useFish()
-
-    let fishHTMLRepresentations = ""
-    for (const fish of fishes) {
-        fishHTMLRepresentations += FishComponent(fish)
-    }
 
     contentElement.innerHTML += `
         <section class="fishList">
-            ${fishHTMLRepresentations}
+            ${
+                fishes.map(fish => FishComponent(fish)).join("")
+            }
         </section>
     `
 }

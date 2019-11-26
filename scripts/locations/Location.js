@@ -2,6 +2,7 @@
  *  LocationComponent which renders individual location objects as HTML
  */
 const LocationComponent = (location) => {
+
     return `
         <div class="location">
             <header class="location__header">

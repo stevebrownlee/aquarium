@@ -29,7 +29,7 @@ const fishCollection = [
         species: "Red Discus",
         location: "Caribbean",
         size: 4,
-        food: ["algae", "crustaceans"]
+        food: ["crustaceans"]
     },
     {
         name: "Mike",

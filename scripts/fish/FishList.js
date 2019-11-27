@@ -12,7 +12,10 @@ const FishListComponent = () => {
     contentElement.innerHTML += `
         <section class="fishList">
             ${
-                fishes.map(fish => FishComponent(fish)).join("")
+                fishes.map(fish => {
+                    const fishHTML = FishComponent(fish)
+                    return fishHTML
+                }).join("")
             }
         </section>
     `
